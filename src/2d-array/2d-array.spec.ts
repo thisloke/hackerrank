@@ -2,7 +2,7 @@ import {describe, it, skip} from 'node:test';
 import * as assert from "node:assert";
 import {findHighestHourglassSum} from "./2d-array";
 import {Matrix} from "./matrix";
-describe("2D Array",  () => {
+describe("2D Array", () => {
    describe("findHighestHourglassSum", () => {
       it("should return 0 if the matrix is empty", () => {
          assert.equal(findHighestHourglassSum(new Matrix([])), 0);
